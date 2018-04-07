@@ -1,4 +1,4 @@
-# HANGMAN
+# HANGMAN
 
 ## INSTALL
 
@@ -6,7 +6,7 @@
 git clone <...> hangman
 cd hangman
 python3.6 -m venv .
-./bin/pip3 install -r requirements.txt.
+./bin/pip3 install -r requirements.txt
 ```
 
 ## TESTS 
@@ -15,7 +15,7 @@ python3.6 -m venv .
 ./bin/pytest test.py
 ```
 
-## SERVER
+## SERVER
 
 ```
 ./bin/python3 -m hangman server
@@ -48,7 +48,6 @@ Client 1
 
 ```
 create myfirstgame hello
-join myfirstgame
 ```
 
 Client 2:
